@@ -1,0 +1,6 @@
+Explain the difference between synchronous and asynchronous functions,Synchronous functions wait while asynchronous functions do not wait for the current function to finish executing before executing the next one.,,Waiting vs. not-waiting,JavaScript
+Explain event delegation,"Event delegation allows us to attach a single event listener, to a parent element, that will fire for all descendants matching a selector, whether those descendants exist now or are added in the future.",,Two birds with one stone,JavaScript
+Explain how `this` works in JavaScript.,"`this` is bound to an object by default, implicit, explicit, or new binding.",,4 bindings,JavaScript
+What is a closure?,A function that accesses variables in the scope of an enclosing function after it has returned.,A function that references the state of independent variables from outside of its lexical scope.,Variables and scope,JavaScript
+What's the difference between .call and .apply?,Call taks a list of arguments as parameters while apply takes an array.,,List vs. array,JavaScript
+Explain Function.prototype.bind,Bind explicitly sets the this value of the function it is called on to the object passed and returns the function instead of executing it. ,,Set and return,JavaScript
